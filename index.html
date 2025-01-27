@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>zzz
+    <head>
+        <style>
+            header
+            {
+                border-bottom:2px solid gray;
+            }
+            h4
+            {
+                background-color: rgb(211, 43, 226);
+            }
+            nav ul
+            {
+                list-style-type: none;
+                display:flex;
+                justify-content:center;
+                margin-right: 100px;
+            }
+            nav li
+            {
+                padding-left: 50px;
+                scroll-padding-left: 500px ;
+            }
+            main
+            {
+                display: flex;
+                text-align: center;
+                font-size: 15px;
+            }
+            main section
+            {
+                flex:2;
+            }
+            main h1
+            {
+                color: purple;
+                font-size: 35px;
+                padding-left: 100px;
+            }
+            main h3
+            {
+                font-size: 20px;
+                padding-right: 90px;
+                padding-left: 240px;
+            }
+            main h5{
+                padding-right: 200px;
+                padding-left: 240px;
+            }
+            aside{
+                flex:2;
+            }
+            .all-div{
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+                background-color: #f4f4f4;
+                margin-bottom: 15px;
+             }
+            .f-txt{
+                max-width: 50%;
+            }
+            .f-txt h1{
+                color: purple;
+                font-size: 35px;
+                padding-left:250px;
+            }
+            .cn-btn{
+                background-color: #ffc107;
+                color: white;
+                border:none;
+                padding:10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+            .c-img img{
+                width: 300px;
+                border: 0px solid #ddd;
+                padding-right: 200px;
+            }
+            .dn-btn
+            {
+                background-color: #ffc107;
+                color: white;
+                border:none;
+                padding:10px 20px;
+                font-size:16px;
+                cursor:pointer;
+                border-radius: 5px;
+            }
+            .vis-section{
+                background-color: purple;
+                color: white;
+                padding-top: 20px;
+                text-align: center;
+                height: 150px;
+            }
+            .vs{
+                display: flex;
+                padding-left: 200px;
+            }
+            .vs h2{
+                margin-top:10px;
+            }
+            
+            .vis-card{
+                display: flex;
+                justify-content: center;
+                gap:55px;
+                flex-direction: row;
+              
+            }
+            .card{
+                background-color: #ffffff;
+                color: purple;
+                border-radius: 5px;
+                padding: 20px;
+                flex:1;
+                max-width: 200px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0,2);
+                margin-left: 100px;
+                
+            }
+            .mis-section{
+                padding-top:150px;
+                padding-left: 150px;
+                margin-left: 100px;
+            }
+            
+           
+            .container {
+                text-align: center;
+                color: purple;
+                margin-top: 100px;
+            }
+
+            .help-steps {
+                display: flex;
+                justify-content: space-between;
+                margin-top: -200px;
+
+            }
+
+            .step {
+                width: 30%;
+                text-align: center;
+                
+            
+            }
+
+            .footer{
+                background:purple;
+                color:white;
+                padding:2rem 0;
+                text-align:center;
+            }
+
+            .container1{
+                width:90%;
+                margin:0 auto;
+            
+            }
+
+            .footer-content {
+                margin-bottom: 2rem;
+                margin-top: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                padding: 20px;
+                background-color: white;
+                color: purple;
+            }
+            .logo-section{
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+            }
+
+            .logo {
+                width: 140px;
+                height:80px;
+                display:inline-block;
+                vertical-align:middle;
+                position:absolute;
+                left:150px;
+                margin:-60px;
+                padding-top: 25px;
+            }
+
+            h2{
+                font-size:1.5rem;
+                margin:1rem 0;
+            }
+
+            h3 {
+                font-size: 2rem;
+                margin: 1rem 0;
+            }
+
+            .btn-contact{
+                background:#ffcc00;
+                color:#6b3080;
+                border:none;
+                padding:0.5rem 1rem;
+                cursor:pointer;
+                font-weight:bold;
+                position:absolute;
+                right:160px;
+            }
+
+            .contact-details{
+                display:flex;
+                justify-content:space-between;
+                gap:2rem;
+                margin-bottom:2rem;
+                align-items: center;
+                
+            }
+
+            .contact-item{
+                text-align:center;
+
+                
+            }
+
+            .contact-item p:first-child{
+                font-size:2rem;
+                margin-bottom:0.5rem;
+            }
+            .pro{
+                display: flex;
+                margin-left: 140px;
+                padding: 250px;
+                margin-top: -250px;
+                margin-left: 25px;
+            }
+            .pro-max{
+                float:right;
+                margin-left: 100px;
+                margin-top: -350px;
+            }
+            .img1{
+                display: flex;
+                justify-content: center;
+                gap:0px;
+                position: relative;
+                bottom: 250px;
+                margin-left: 200px;
+            }
+            .line{
+                margin-top: 100px;
+            }
+            .footer-bottom{
+            font-size:0.9rem;
+            border-top:1px solid #fff;
+            padding-top:1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            }
+            .data{
+                padding-bottom: 200px;
+            } 
+            .how-we-can-help{
+                padding-bottom: 15px;
+            }     
+        </style>
+    </head>
+            <h4>Helpline:8050636777</h4>
+            <nav>
+                <ul>
+                <li><img src="C:\Users\acer\Downloads\Group 46.png"/></li>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Health Support Program </li>
+                    <li>Get involved</li>
+                    <li>Contact Us</li>
+                    <li><button class="cn-btn">Contact Us</button></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="all-div">
+                <div class="f-txt">
+                    <h1>Sanjeevini Cancer Seva Trust</h1>
+                    <h3>With You in Every Step Of Cancer Care</h3>
+                    <h5>Donate Now to Help People with Cancer</h5>
+                    <button class="dn-btn">Donate Now</button>
+                </div> 
+                <div class="c-img"> <img src="C:\Users\acer\Downloads\Group 52.png" height="200" width="250"/></div>                           
+            </section>
+        </main>
+
+        <section class="vis-section">
+            <div class="vs">
+                <div>
+                    <img src="C:\Users\acer\Downloads\Line 2.png"/>
+                </div>
+                <div>
+                    <img src="C:\Users\acer\Downloads\Group 73.png"/>
+                </div>
+                <div>
+                    <h2>Our Vision</h2>
+                </div>
+                <div>
+                    <img src="C:\Users\acer\Downloads\Group 73.png"/>
+                </div>
+                <div>
+                    <img src="C:\Users\acer\Downloads\Line 3.png"/>
+                </div>
+            </div>
+            <div class="vis-card">
+                 <div class="card">
+                     <p><img src="C:\Users\acer\Downloads\Frame.png"/></p>
+                     <p> Support people with Cancer</p>
+                 </div>
+                <div class="card">
+                    <p><img src="C:\Users\acer\Downloads\Frame (1).png"/></p>
+                    <p>Provide financial asssistance in cancer diagnostic & treatment</p>
+                </div>
+                <div class="card">
+                    <p><img src="C:\Users\acer\Downloads\Frame (2).png"/></p>
+                    <p>Conduct educational Workshop</p>
+                </div>
+                <div class="card">
+                    <p><img src="C:\Users\acer\Downloads\Frame (3).png"/></p>
+                    <p>Increased Community Outreach to create cancer awarness</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mis-section">
+            <p><img src="C:\Users\acer\Downloads\Group 117.png"/></p>
+        </section>
+        <section class="Health">
+            <div class="pro">
+                <img src="C:\Users\acer\Downloads\Group 14.png"/>
+                <h3><span style="color:purple">Our</span>Health Support Program</h3>
+            </div>
+            <div class="pro-max">
+                <img src="C:\Users\acer\Downloads\Frame 7.png"/>
+                <img src="C:\Users\acer\Downloads\Frame 9.png"/>
+            </div>
+             </div>
+            <div class="img1">
+                <div>
+                    <p><img src="C:\Users\acer\Downloads\Group 66.png"/></p>
+                </div>
+                <div>
+                    <p><img src="C:\Users\acer\Downloads\Group 67.png"/> </p>    
+                </div>
+                <div>
+                    <p><img src="C:\Users\acer\Downloads\Group 68.png"/></p>
+                </div>
+            </div>
+        </section>
+    
+        <section class="how-we-can-help">
+            <div class="container">
+                <div class="data">
+                <h2 >How We Can Help</h2>
+            </div>
+                <div class="help-steps">
+                    <div class="step">
+                        <img src="C:\Users\acer\Downloads\Group 82 (2).png"alt="Step 1">
+                        <h3>Read Our Health Support Program</h3>
+                            <p> Review the details of our health Support Program and services.</p>
+                    </div>
+                    <div class="line" ><img src="C:\Users\acer\Downloads\Vector 1.png"/></div>
+                    <div class="step">
+                        <img src="C:\Users\acer\Downloads\Group 83.png"alt="Step 2">
+                        <h3>Contact Us</h3>
+                        <p>Reach out to discuss how we can assist you or your loved ones.</p>
+                    </div>
+                    <div class="line"><img src="C:\Users\acer\Downloads\Vector 2.png"/></div>
+                    
+                    <div class="step">
+                        <img src="C:\Users\acer\Downloads\Group 84.png"alt="Step 3">
+                        <h3>Stay Informed</h3>
+                        <p>Follow our updates for the latest information on our programs and service</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <footer class="footer">
+            <article class="san">
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <div>
+                            <img src="C:\Users\acer\Downloads\Line 4.png"width="250px" padding-left="50px"> 
+                        </div>
+                        <div>
+                            <img src="C:\Users\acer\Downloads\Group 103.png">
+                        </div>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Health Support Program </li>
+                        <li>Get involved</li>
+                        <li>Contact Us</li>
+                        <div>
+                            <img src="C:\Users\acer\Downloads\Group 73 (1).png"> 
+                        </div>
+                        <div>
+                            <img src="C:\Users\acer\Downloads\Line 5.png"width="200px">
+                        </div>
+                    </ul>
+                </nav>
+            </article>      
+                <div class="container1">
+                    <div class="footer-content">
+                        <div class="logo-section">
+                            <img src="C:\Users\acer\Downloads\Group 46.png" class="logo"/>
+    
+                        </div>
+                        <h3> With You in Every Step of Cancer Care</h3>
+                        <button class="btn-contact">Contact Us</button>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <p><img src="C:\Users\acer\Downloads\edgesensor_high.png"/></p>
+                            <p>8050636777</p>
+                            </div>
+                            <div><img src="C:\Users\acer\Downloads\rectangle 30.png"/></div>
+    
+                        <div class="contact-item">
+                            <p><img src="C:\Users\acer\Downloads\attach_email (1).png"/></p>
+                            <p>sanjeevinicancerseva@gmail.com</p>
+                        </div>
+                        <div><img src="C:\Users\acer\Downloads\rectangle 30.png"/></div>
+                        
+                        
+                        <div class="contact-item">
+                            <p><img src="C:\Users\acer\Downloads\distance.png"/></p>
+                            <p>
+                                Mangalore Institute of Oncology
+                                Pumpwell,
+                            </p>
+                            <p>
+                                Mangaluru
+                                Dakshina Kannada
+                                575002
+                            </p>
+                        </div>
+    
+    
+                    </div>
+                    <div class="footer-bottom">
+                        <p>
+                            Designed & Developed by Chipsy it Services Pvt. Ltd.
+    
+                        </p>
+                        <p>Copyright: © 2024 Sanjeevini Cancer Care Trust</p>
+                    </div>
+                </div>
+        </footer>
+    </body>
+    </html>
+    
+       
